@@ -1,0 +1,36 @@
+# Your own measurements and their outputs stay local
+data/raw/**
+!data/raw/.gitkeep
+outputs/local/**
+!outputs/local/.gitkeep
+
+# Credentials and private documents
+.env
+.env.*
+**/*secret*
+**/*credential*
+*PRIVATE*
+*private*
+*HANDOFF*
+*handoff*
+*.pdf
+*.xlsx
+*.xls
+*.docx
+*.zip
+*.pem
+*.key
+
+# Python / tooling
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
