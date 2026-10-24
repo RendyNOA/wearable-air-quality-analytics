@@ -1,0 +1,13 @@
+model,test_subject,n_test_windows,accuracy,macro_f1
+LogisticRegression,Subject-1,172,0.9825581395348837,0.982536889129552
+DecisionTree,Subject-1,172,0.9244186046511628,0.9219936439384445
+RandomForest,Subject-1,172,0.8662790697674418,0.8523809523809525
+LogisticRegression,Subject-2,172,1.0,1.0
+DecisionTree,Subject-2,172,1.0,1.0
+RandomForest,Subject-2,172,1.0,1.0
+LogisticRegression,Subject-3,172,0.8313953488372093,0.8331662625089655
+DecisionTree,Subject-3,172,0.75,0.6666666666666666
+RandomForest,Subject-3,172,0.6569767441860465,0.6095238095238095
+LogisticRegression,Subject-4,172,1.0,1.0
+DecisionTree,Subject-4,172,0.9244186046511628,0.9203578999276323
+RandomForest,Subject-4,172,1.0,1.0
